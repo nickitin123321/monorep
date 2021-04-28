@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/app",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Nikitin <nikita.nikitin@anychart.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "app.js",
+  "dependencies": {
+    "@monorepo/second": "0.0.0",
+    "@monorepo/third": "0.0.0"
+  }
+}
