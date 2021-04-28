@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "my monorep",
   "main": "packages/app/app.js",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
