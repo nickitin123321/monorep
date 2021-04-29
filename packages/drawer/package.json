@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/drawer",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Nikitin <nikita.nikitin@anychart.com>",
+  "homepage": "",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo/shapes": "0.0.0"
+  }
+}

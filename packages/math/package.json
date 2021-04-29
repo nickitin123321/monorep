@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/math",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Nikitin <nikita.nikitin@anychart.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "app.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@monorepo/shapes": "0.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

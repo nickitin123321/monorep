@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/shapes",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Nikitin <nikita.nikitin@anychart.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@monorepo/drawer": "0.0.0",
+    "@monorepo/math": "0.0.0"
+  }
+}
