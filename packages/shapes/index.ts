@@ -1,4 +1,6 @@
-const drawer = require('@monorepo/drawer');
+import Drawer from '@monorepo/drawer';
+
+import { sum } from '@monorepo/math';
 
 interface Shape{
     centerPointX: number;
@@ -12,7 +14,7 @@ class Circle implements Shape{
     centerPointX: number;
     centerPointY: number;
 
-    constructor(name : string, radius: number, centerPointX: number, centerPointY: number){
+    constructor(name: string, radius: number, centerPointX: number, centerPointY: number){
         this.name = name;
         this.radius = radius;  
         this.centerPointX =  centerPointX;
