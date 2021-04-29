@@ -10,5 +10,8 @@
   "dependencies": {
     "@monorepo/drawer": "0.0.0",
     "@monorepo/math": "0.0.0"
+  },
+  "scripts": {
+    "tsc": "tsc -w"
   }
 }

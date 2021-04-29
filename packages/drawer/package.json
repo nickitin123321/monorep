@@ -9,5 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "@monorepo/shapes": "0.0.0"
+  },
+  "scripts": {
+    "tsc": "tsc -w"
   }
 }

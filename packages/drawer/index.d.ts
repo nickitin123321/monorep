@@ -1,4 +1,4 @@
-export declare class Drawer {
+export default class Drawer {
     constructor();
     drawSquare(): void;
 }

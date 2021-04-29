@@ -5,12 +5,12 @@
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "app.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "@monorepo/shapes": "0.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -w"
   }
 }

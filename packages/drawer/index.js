@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Drawer = void 0;
 var Drawer = /** @class */ (function () {
     function Drawer() {
     }
@@ -8,4 +7,4 @@ var Drawer = /** @class */ (function () {
     };
     return Drawer;
 }());
-exports.Drawer = Drawer;
+exports.default = Drawer;
