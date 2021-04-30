@@ -3,9 +3,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var shapes_1 = require("@monorepo/shapes");
-var calculateSquare_1 = __importDefault(require("./src/calculateSquare"));
-var circle1 = new shapes_1.Circle(10, 1, 1);
-var circle2 = new shapes_1.Circle(20, 0, 1);
-var square1 = new shapes_1.Square(10, 1, 2);
-console.log(calculateSquare_1.default(circle1));
+exports.calculateSquare = exports.calculatePerimeter = void 0;
+var calculatePerimeter_1 = require("./calculatePerimeter");
+Object.defineProperty(exports, "calculatePerimeter", { enumerable: true, get: function () { return __importDefault(calculatePerimeter_1).default; } });
+var calculateSquare_1 = require("./calculateSquare");
+Object.defineProperty(exports, "calculateSquare", { enumerable: true, get: function () { return __importDefault(calculateSquare_1).default; } });

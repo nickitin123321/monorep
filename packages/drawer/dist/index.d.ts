@@ -1,4 +1,1 @@
-export default class Drawer {
-    constructor();
-    drawSquare(): void;
-}
+export { default as Drawer } from './Drawer';
