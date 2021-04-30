@@ -1,5 +1,5 @@
 {
-  "name": "@nikitin123321/monorepoww",
+  "name": "monorepo",
   "version": "1.0.0",
   "description": "my monorep",
   "main": "packages/math/",
@@ -487,10 +487,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickitin123321/monorepww.git"
+    "url": "git+https://github.com/nickitin123321/monorep.git"
   },
   "bugs": {
-    "url": "https://github.com/nickitin123321/monorepww.git"
+    "url": "https://github.com/nickitin123321/monorep/issues"
   },
   "homepage": "https://github.com/nickitin123321/monorep#readme"
 }
