@@ -1,4 +1,4 @@
-export default interface Shape{
+export default interface Shape {
   centerPointX: number;
   centerPointY: number;
   name: string;

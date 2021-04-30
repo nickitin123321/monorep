@@ -1,10 +1,31 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.calculateSquare = exports.calculatePerimeter = void 0;
-var calculatePerimeter_1 = require("./calculatePerimeter");
-Object.defineProperty(exports, "calculatePerimeter", { enumerable: true, get: function () { return __importDefault(calculatePerimeter_1).default; } });
-var calculateSquare_1 = require("./calculateSquare");
-Object.defineProperty(exports, "calculateSquare", { enumerable: true, get: function () { return __importDefault(calculateSquare_1).default; } });
+exports.calculateRectPerimeter = exports.calculateSquarePerimeter = exports.calculateCirclePerimeter = exports.calculateElipseArea = exports.calculateRectArea = exports.calculateSquareArea = exports.calculateCircleArea = void 0;
+function calculateCirclePerimeter(shape) {
+    return shape.radius * 2 * Math.PI;
+}
+exports.calculateCirclePerimeter = calculateCirclePerimeter;
+function calculateSquarePerimeter(shape) {
+    return 4 * shape.side;
+}
+exports.calculateSquarePerimeter = calculateSquarePerimeter;
+function calculateRectPerimeter(shape) {
+    return 2 * shape.longSide + 2 * shape.shortSide;
+}
+exports.calculateRectPerimeter = calculateRectPerimeter;
+function calculateCircleArea(shape) {
+    return Math.pow(shape.radius, 2) * Math.PI;
+}
+exports.calculateCircleArea = calculateCircleArea;
+function calculateSquareArea(shape) {
+    return shape.side * shape.side;
+}
+exports.calculateSquareArea = calculateSquareArea;
+function calculateRectArea(shape) {
+    return shape.longSide * shape.shortSide;
+}
+exports.calculateRectArea = calculateRectArea;
+function calculateElipseArea(shape) {
+    return shape.radiusY * shape.radiusX * Math.PI;
+}
+exports.calculateElipseArea = calculateElipseArea;

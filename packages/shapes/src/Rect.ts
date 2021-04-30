@@ -1,4 +1,4 @@
-import { Shape } from '.';
+import Shape from './Shape';
 
 export default class Square implements Shape {
   centerPointX: number;
@@ -6,7 +6,7 @@ export default class Square implements Shape {
   name: string = 'square';
   longSide: number;
   shortSide: number;
-  constructor(longSide: number, shortSide: number, centerPointY: number, centerPointX: number, ) {
+  constructor(longSide: number, shortSide: number, centerPointY: number, centerPointX: number) {
     this.centerPointX = centerPointX;
     this.centerPointY = centerPointY;
     this.longSide = longSide;

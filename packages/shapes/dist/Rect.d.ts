@@ -1,4 +1,4 @@
-import { Shape } from '.';
+import Shape from './Shape';
 export default class Square implements Shape {
     centerPointX: number;
     centerPointY: number;

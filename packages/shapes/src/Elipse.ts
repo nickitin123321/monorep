@@ -1,9 +1,9 @@
-import { Shape } from ".";
+import Shape from './Shape';
 
 export default class Elipse implements Shape {
   name: string = 'square';
   radiusY: number;
-  radiusX: number; 
+  radiusX: number;
   centerPointX: number;
   centerPointY: number;
   constructor(radiusY: number, radiusX: number, centerPointX: number, centerPointY: number) {

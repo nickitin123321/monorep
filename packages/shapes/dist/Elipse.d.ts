@@ -1,4 +1,4 @@
-import { Shape } from ".";
+import Shape from './Shape';
 export default class Elipse implements Shape {
     name: string;
     radiusY: number;

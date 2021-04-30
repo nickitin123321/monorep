@@ -1,4 +1,4 @@
-import { Elipse } from '.';
+import Elipse from './Elipse';
 export default class Circle extends Elipse {
     radius: number;
     name: string;
