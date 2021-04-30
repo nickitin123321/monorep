@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/shapes",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
@@ -8,8 +8,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@monorepo/drawer": "0.0.0",
-    "@monorepo/math": "0.0.0"
+    "@monorepo/drawer": "^2.0.0",
+    "@monorepo/math": "^2.0.0"
   },
   "scripts": {
     "tsc": "tsc -w",
