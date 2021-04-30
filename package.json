@@ -2,7 +2,7 @@
   "name": "monorepo",
   "version": "1.0.0",
   "description": "my monorep",
-  "main": "packages/shapes/app.js",
+  "main": "packages/shapes/",
   "private": true,
   "workspaces": [
     "packages/*"
