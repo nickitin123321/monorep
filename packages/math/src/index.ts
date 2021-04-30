@@ -1,4 +1,4 @@
-import { Circle, Square, Rect, Elipse } from '@monorepoww/shapes';
+import { Circle, Square, Rect, Elipse } from '@monorepo/shapes';
 
 function calculateCirclePerimeter(shape: Circle) {
   return shape.radius * 2 * Math.PI;

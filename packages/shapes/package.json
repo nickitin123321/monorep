@@ -1,5 +1,5 @@
 {
-  "name": "@monorepoww/shapes",
+  "name": "@monorepo/shapes",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
@@ -12,6 +12,7 @@
     "@monorepo/math": "0.0.0"
   },
   "scripts": {
-    "tsc": "tsc -w"
+    "tsc": "tsc -w",
+    "init": "npm init"
   }
 }

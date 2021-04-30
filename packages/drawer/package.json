@@ -1,16 +1,17 @@
 {
-  "name": "@monorepoww/drawer",
+  "name": "@monorepo/drawer",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "ISC",
   "dependencies": {
-    "@monorepoww/shapes": "0.0.0"
+    "@monorepo/shapes": "0.0.0"
   },
   "scripts": {
-    "tsc": "tsc -w"
+    "tsc": "tsc -w",
+    "init": "npm init"
   }
 }

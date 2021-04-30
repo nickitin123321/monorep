@@ -1,4 +1,4 @@
-import { Circle, Square, Rect, Elipse } from '@monorepoww/shapes';
+import { Circle, Square, Rect, Elipse } from '@monorepo/shapes';
 declare function calculateCirclePerimeter(shape: Circle): number;
 declare function calculateSquarePerimeter(shape: Square): number;
 declare function calculateRectPerimeter(shape: Rect): number;

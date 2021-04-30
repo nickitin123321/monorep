@@ -1,4 +1,4 @@
-import { Square } from '@monorepoww/shapes';
+import { Square } from '@monorepo/shapes';
 export default class Drawer {
     side: number;
     ctx: CanvasRenderingContext2D;
