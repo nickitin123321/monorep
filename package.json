@@ -1,8 +1,8 @@
 {
-  "name": "monorepo",
+  "name": "@nikitin123321/monorepoww",
   "version": "1.0.0",
   "description": "my monorep",
-  "main": "packages/shapes/",
+  "main": "packages/math/",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -487,10 +487,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickitin123321/monorep.git"
+    "url": "https://github.com/nickitin123321/monorepww.git"
   },
   "bugs": {
-    "url": "https://github.com/nickitin123321/monorep/issues"
+    "url": "https://github.com/nickitin123321/monorepww.git"
   },
   "homepage": "https://github.com/nickitin123321/monorep#readme"
 }
