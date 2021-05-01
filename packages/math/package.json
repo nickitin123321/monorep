@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/math",
-  "version": "2.0.0",
+  "version": "2.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@monorepo/shapes": "^2.0.0"
+    "@monorepo/shapes": "^2.0.1-alpha.0"
   },
   "scripts": {
     "tsc": "tsc -w",
