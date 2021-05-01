@@ -3,7 +3,6 @@
   "version": "2.0.1",
   "description": "my monorep",
   "main": "packages/math/",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
