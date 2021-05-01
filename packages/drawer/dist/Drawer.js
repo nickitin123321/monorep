@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Drawer = /** @class */ (function () {
     function Drawer(shape, ctx) {
         this.side = shape.side;
@@ -12,4 +10,4 @@ var Drawer = /** @class */ (function () {
     };
     return Drawer;
 }());
-exports.default = Drawer;
+export default Drawer;

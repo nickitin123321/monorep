@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Elipse = /** @class */ (function () {
     function Elipse(radiusY, radiusX, centerPointX, centerPointY) {
         this.name = 'square';
@@ -10,4 +8,4 @@ var Elipse = /** @class */ (function () {
     }
     return Elipse;
 }());
-exports.default = Elipse;
+export default Elipse;

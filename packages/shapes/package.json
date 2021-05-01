@@ -7,10 +7,6 @@
   "license": "ISC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "@monorepo/drawer": "^2.0.0",
-    "@monorepo/math": "^2.0.0"
-  },
   "scripts": {
     "tsc": "tsc -w",
     "init": "npm init"

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Square = /** @class */ (function () {
     function Square(longSide, shortSide, centerPointY, centerPointX) {
         this.name = 'square';
@@ -10,4 +8,4 @@ var Square = /** @class */ (function () {
     }
     return Square;
 }());
-exports.default = Square;
+export default Square;

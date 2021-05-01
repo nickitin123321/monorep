@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -14,11 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var Rect_1 = __importDefault(require("./Rect"));
+import Rect from './Rect';
 var Square = /** @class */ (function (_super) {
     __extends(Square, _super);
     function Square(side, centerPointY, centerPointX) {
@@ -28,5 +23,5 @@ var Square = /** @class */ (function (_super) {
         return _this;
     }
     return Square;
-}(Rect_1.default));
-exports.default = Square;
+}(Rect));
+export default Square;
