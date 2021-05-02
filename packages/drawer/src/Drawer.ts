@@ -35,7 +35,7 @@ export default class Drawer {
     }
     if (shape instanceof Elipse) {
       this.radiusX = shape.radiusX;
-      this.radiusY = shape.radiusX;
+      this.radiusY = shape.radiusY;
     }
   }
 

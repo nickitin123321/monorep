@@ -1,4 +1,4 @@
-import { Circle, Elipse, Rect, Square } from '@monorepo/shapes/src/index.js';
+import { Circle, Elipse, Rect, Square } from '../../shapes/dist/index.js';
 export default class Drawer {
     constructor(shape, ctx) {
         this.side = 0;
@@ -22,7 +22,7 @@ export default class Drawer {
         }
         if (shape instanceof Elipse) {
             this.radiusX = shape.radiusX;
-            this.radiusY = shape.radiusX;
+            this.radiusY = shape.radiusY;
         }
     }
     drawSquare() {
