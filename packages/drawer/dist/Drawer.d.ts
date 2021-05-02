@@ -1,9 +1,17 @@
-import { Square } from '@monorepo/shapes';
+import { Circle, Elipse, Rect, Square } from '@monorepo/shapes/src/index.js';
 export default class Drawer {
     side: number;
     ctx: CanvasRenderingContext2D;
     xCoord: number;
     yCoord: number;
-    constructor(shape: Square, ctx: CanvasRenderingContext2D);
+    radius: number;
+    longSide: number;
+    shortSide: number;
+    radiusY: number;
+    radiusX: number;
+    constructor(shape: Square | Circle | Rect | Elipse, ctx: CanvasRenderingContext2D);
     drawSquare(): void;
+    drawRect(): void;
+    drawCircle(): void;
+    drawElipse(): void;
 }

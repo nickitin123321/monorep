@@ -11,7 +11,8 @@
     "@monorepo/shapes": "^2.0.1-alpha.0"
   },
   "scripts": {
-    "tsc": "tsc -w",
+    "tscw": "tsc -w",
+    "tsc": "tsc",
     "init": "npm init"
   }
 }

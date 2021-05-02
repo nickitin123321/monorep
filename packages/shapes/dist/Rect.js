@@ -1,11 +1,9 @@
-var Square = /** @class */ (function () {
-    function Square(longSide, shortSide, centerPointY, centerPointX) {
-        this.name = 'square';
+export default class Rect {
+    constructor(longSide, shortSide, centerPointX, centerPointY) {
+        this.name = 'rect';
         this.centerPointX = centerPointX;
         this.centerPointY = centerPointY;
         this.longSide = longSide;
         this.shortSide = shortSide;
     }
-    return Square;
-}());
-export default Square;
+}

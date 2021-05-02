@@ -1,7 +1,7 @@
 import Shape from './Shape';
 
 export default class Elipse implements Shape {
-  name: string = 'square';
+  name: string = 'elipse';
   radiusY: number;
   radiusX: number;
   centerPointX: number;

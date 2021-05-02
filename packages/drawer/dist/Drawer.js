@@ -1,13 +1,43 @@
-var Drawer = /** @class */ (function () {
-    function Drawer(shape, ctx) {
-        this.side = shape.side;
+import { Circle, Elipse, Rect, Square } from '@monorepo/shapes/src/index.js';
+export default class Drawer {
+    constructor(shape, ctx) {
+        this.side = 0;
+        this.radius = 0;
+        this.longSide = 0;
+        this.shortSide = 0;
+        this.radiusX = 0;
+        this.radiusY = 0;
         this.ctx = ctx;
         this.xCoord = shape.centerPointX;
         this.yCoord = shape.centerPointY;
+        if (shape instanceof Square) {
+            this.side = shape.side;
+        }
+        if (shape instanceof Circle) {
+            this.radius = shape.radius;
+        }
+        if (shape instanceof Rect) {
+            this.longSide = shape.longSide;
+            this.shortSide = shape.shortSide;
+        }
+        if (shape instanceof Elipse) {
+            this.radiusX = shape.radiusX;
+            this.radiusY = shape.radiusX;
+        }
     }
-    Drawer.prototype.drawSquare = function () {
+    drawSquare() {
         this.ctx.strokeRect(this.xCoord, this.yCoord, this.side, this.side);
-    };
-    return Drawer;
-}());
-export default Drawer;
+    }
+    drawRect() {
+        this.ctx.strokeRect(this.xCoord, this.yCoord, this.longSide, this.shortSide);
+    }
+    drawCircle() {
+        this.ctx.beginPath();
+        this.ctx.arc(this.xCoord, this.yCoord, this.radius, 0, 2 * Math.PI, true);
+        this.ctx.stroke();
+    }
+    drawElipse() {
+        this.ctx.ellipse(this.xCoord, this.yCoord, this.radiusX, this.radiusY, Math.PI / 4, 0, 2 * Math.PI);
+        this.ctx.stroke();
+    }
+}
