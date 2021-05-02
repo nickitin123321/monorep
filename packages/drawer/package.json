@@ -1,6 +1,6 @@
 {
   "name": "@monorepo/drawer",
-  "version": "2.0.1-alpha.0",
+  "version": "2.1.0",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "license": "ISC",
   "dependencies": {
-    "@monorepo/shapes": "^2.0.1-alpha.0"
+    "@monorepo/shapes": "^2.1.0"
   },
   "scripts": {
     "tscw": "tsc -w",
