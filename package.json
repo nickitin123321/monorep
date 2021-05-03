@@ -1,6 +1,6 @@
 {
   "name": "@nickitin123321/monorepo",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "my monorep",
   "workspaces": [
     "packages/*"
