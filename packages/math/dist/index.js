@@ -22,7 +22,7 @@ function calculatePerimeter(shape) {
         return 4 * shape.side;
     }
     if (shape instanceof Rect) {
-        return shape.longSide * shape.shortSide;
+        return 2 * shape.longSide + 2 * shape.shortSide;
     }
     if (shape instanceof Elipse) {
         return 4 * ((shape.radiusY * shape.radiusX * Math.PI) + (shape.radiusX - shape.radiusY)) / (shape.radiusX + shape.radiusY);
