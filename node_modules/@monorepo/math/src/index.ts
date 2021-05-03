@@ -1,39 +1,45 @@
 import { Circle, Square, Rect, Elipse } from '@monorepo/shapes/src/index.js';
 
-function calculateCirclePerimeter(shape: Circle) {
-  return shape.radius * 2 * Math.PI;
+function calculateArea(shape: Circle| Square | Rect| Elipse): number{
+  if (shape instanceof Circle) {
+    return shape.radius ** 2 * Math.PI;
+  }
+
+  if (shape instanceof Square) {
+    return shape.side * shape.side;
+  }
+
+  if (shape instanceof Rect) {
+    return shape.longSide * shape.shortSide;
+  }
+
+  if (shape instanceof Elipse) {
+    return shape.radiusY * shape.radiusX * Math.PI;
+  }
+  return 0;
 }
 
- function calculateSquarePerimeter(shape: Square){
-  return 4 * shape.side;
-}
+function calculatePerimeter(shape: Circle | Square | Rect| Elipse): number{
+  if (shape instanceof Circle) {
+    return shape.radius * 2 * Math.PI;
+  }
 
- function calculateRectPerimeter(shape: Rect){
-  return 2 * shape.longSide + 2 * shape.shortSide;
-}
+  if (shape instanceof Square) {
+    return 4 * shape.side;
+  }
 
-function calculateCircleArea(shape: Circle) {
-  return shape.radius ** 2 * Math.PI;
-}
+  if (shape instanceof Rect) {
+    return 2 * shape.longSide + 2 * shape.shortSide;
+  }
 
- function calculateSquareArea(shape: Square){
-  return shape.side * shape.side;
-}
+  if (shape instanceof Elipse) {
+    return 4 * ((shape.radiusY * shape.radiusX * Math.PI) + (shape.radiusX - shape.radiusY))/(shape.radiusX + shape.radiusY) ;
+  }
 
- function calculateRectArea(shape: Rect){
-  return shape.longSide * shape.shortSide;
-}
-
- function calculateElipseArea(shape: Elipse){
-  return shape.radiusY * shape.radiusX * Math.PI;
+  return 0;
 }
 
 export{
-  calculateCircleArea,
-  calculateSquareArea,
-  calculateRectArea,
-  calculateElipseArea,
-  calculateCirclePerimeter,
-  calculateSquarePerimeter,
-  calculateRectPerimeter
+  calculateArea,
+  calculatePerimeter
 }
