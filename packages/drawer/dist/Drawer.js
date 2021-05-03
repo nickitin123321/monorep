@@ -1,4 +1,4 @@
-import { Circle, Elipse, Rect, Square } from '../../../shapes/dist/index.js';
+import { Circle, Elipse, Rect, Square } from '../../shapes/dist/index.js';
 export default class Drawer {
     constructor(shape, ctx) {
         this.side = 0;
