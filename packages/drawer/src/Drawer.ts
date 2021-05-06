@@ -11,7 +11,7 @@ export default class Drawer {
   radiusY: number;
   radiusX: number;
   constructor(shape: Square | Circle | Rect | Elipse, ctx: CanvasRenderingContext2D) {
-    this.side = 1;
+    this.side = 0;
     this.radius = 0;
     this.longSide = 0;
     this.shortSide = 0;
