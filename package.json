@@ -1,6 +1,6 @@
 {
   "name": "monorepo123321",
-  "version": "2.5.4",
+  "version": "2.5.5",
   "description": "my monorep",
   "workspaces": [
     "packages/*"
