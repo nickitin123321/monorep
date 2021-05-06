@@ -1,4 +1,4 @@
-import { Circle, Square, Rect, Elipse } from '@monorepo/shapes';
+import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 
 function calculateArea(shape: Circle| Square | Rect| Elipse): number{
   if (shape instanceof Circle) {

@@ -1,4 +1,4 @@
-import { Circle, Elipse, Rect, Square } from '@monorepo/shapes';
+import { Circle, Elipse, Rect, Square } from '@monorepo123321/shapes';
 
 export default class Drawer {
   side: number;
