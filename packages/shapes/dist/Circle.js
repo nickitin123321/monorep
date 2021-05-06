@@ -1,4 +1,4 @@
-import Elipse from './Elipse.js';
+import Elipse from './Elipse';
 export default class Circle extends Elipse {
     constructor(radius, centerPointX, centerPointY) {
         super(radius, radius, centerPointX, centerPointY);

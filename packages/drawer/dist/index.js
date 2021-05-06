@@ -1,1 +1,1 @@
-export { default as Drawer } from './Drawer.js';
+export { default as Drawer } from './Drawer';

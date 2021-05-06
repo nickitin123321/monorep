@@ -1,4 +1,4 @@
-import { Circle, Elipse, Rect, Square } from '@monorepo/shapes/src/index.js';
+import { Circle, Elipse, Rect, Square } from '@monorepo123321/shapes';
 export default class Drawer {
     side: number;
     ctx: CanvasRenderingContext2D;

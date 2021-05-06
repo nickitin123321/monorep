@@ -1,8 +1,8 @@
-import Rect from './Rect.js';
+import Rect from './Rect';
 export default class Square extends Rect {
     constructor(side, centerPointX, centerPointY) {
         super(side, side, centerPointX, centerPointY);
-        this.name = 'square';
+        this.name = 'ssquare';
         this.side = side;
     }
 }

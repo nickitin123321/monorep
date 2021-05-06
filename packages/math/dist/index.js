@@ -1,4 +1,4 @@
-import { Circle, Square, Rect, Elipse } from '../../shapes/dist/index.js';
+import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 function calculateArea(shape) {
     if (shape instanceof Circle) {
         return Math.pow(shape.radius, 2) * Math.PI;
