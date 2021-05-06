@@ -1,7 +1,7 @@
 import { Circle, Elipse, Rect, Square } from '@monorepo123321/shapes';
 export default class Drawer {
     constructor(shape, ctx) {
-        this.side = 0;
+        this.side = 1;
         this.radius = 0;
         this.longSide = 0;
         this.shortSide = 0;
