@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/nickitin123321/monorep/issues"
   },
-  "homepage": "https://github.com/nickitin123321/monorep#readme"
+  "homepage": "https://github.com/nickitin123321/monorep#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
