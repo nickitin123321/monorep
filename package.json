@@ -6,7 +6,7 @@
     "test": "exit 0",
     "update:version": "lerna version --no-push",
     "git": "git add . && cz -a",
-    "publish": "yarn run test && lerna run prepublish && yarn run git &&  lerna version && lerna publish from-package"
+    "publish": "yarn run test && lerna run prepublish && yarn run git &&  yarn run update:version || git push && lerna publish from-package"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
