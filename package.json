@@ -10,7 +10,7 @@
     "update:version": "lerna version --no-push",
     "commit": "git add . && cz -a",
     "publishP": "lerna publish from-package",
-    "publish": "yarn run test && lerna run prepublish && yarn run commit && lerna version && yarn run publishP"
+    "publish": "yarn run test && lerna run prepublish && yarn run commit && lerna version && lerna publish from-package"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
