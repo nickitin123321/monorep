@@ -1,6 +1,6 @@
 {
   "name": "@monorepo123321/drawer",
-  "version": "2.3.8",
+  "version": "2.3.14",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "license": "ISC",
   "dependencies": {
-    "@monorepo123321/shapes": "^2.3.7"
+    "@monorepo123321/shapes": "^2.3.14"
   },
   "publishConfig": {
     "access": "public"
