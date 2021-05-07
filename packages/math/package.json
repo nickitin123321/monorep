@@ -17,5 +17,6 @@
     "tscw": "tsc -w",
     "prepublish": "tsc",
     "init": "npm init"
-  }
+  },
+  "gitHead": "941356691ee4db61c11c5847ca4a15a92194e429"
 }
