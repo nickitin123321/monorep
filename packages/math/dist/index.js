@@ -11,6 +11,8 @@ function calculateArea(shape) {
         return rv;
     }
     if (shape instanceof Rect) {
+        const rv = shape.longSide * shape.shortSide;
+        console.log('Rect area:', rv);
         return shape.longSide * shape.shortSide;
     }
     if (shape instanceof Elipse) {
