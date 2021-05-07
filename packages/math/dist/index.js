@@ -2,6 +2,7 @@ import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 function calculateArea(shape) {
     if (shape instanceof Circle) {
         const rv = Math.pow(shape.radius, 2) * Math.PI;
+        console.log('test');
         console.log('Circle area:', rv);
         return rv;
     }
