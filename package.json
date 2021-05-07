@@ -5,8 +5,7 @@
   "scripts": {
     "test command": "exit 0",
     "update:version": "lerna version --no-push",
-    "publish1": "lerna run prepublish && git add . && cz -a &&  lerna version && lerna publish from-package",
-    "publish": "lerna run prepublish && git add . && cz -a &&  lerna publish"
+    "publish": "lerna run prepublish && git add . && cz -a &&  lerna version && lerna publish from-package"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
