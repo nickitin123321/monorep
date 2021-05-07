@@ -10,6 +10,9 @@
   "dependencies": {
     "@monorepo123321/shapes": "^2.3.7"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "tscw": "tsc -w",
     "tsc": "tsc",
