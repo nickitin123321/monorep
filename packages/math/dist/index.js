@@ -29,7 +29,9 @@ function calculatePerimeter(shape) {
         return rv;
     }
     if (shape instanceof Square) {
-        return 4 * shape.side;
+        const rv = 4 * shape.side;
+        console.log('Circle perimeter:', 4 * shape.side);
+        return rv;
     }
     if (shape instanceof Rect) {
         return 2 * shape.longSide + 2 * shape.shortSide;

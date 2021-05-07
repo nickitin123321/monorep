@@ -36,7 +36,9 @@ function calculatePerimeter(shape: Circle | Square | Rect | Elipse): number {
   }
 
   if (shape instanceof Square) {
-    return 4 * shape.side;
+    const rv = 4 * shape.side;
+    console.log('Circle perimeter:', 4 * shape.side);
+    return rv;
   }
 
   if (shape instanceof Rect) {
@@ -54,3 +56,4 @@ function calculatePerimeter(shape: Circle | Square | Rect | Elipse): number {
 }
 
 export { calculateArea, calculatePerimeter };
+
