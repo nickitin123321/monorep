@@ -1,7 +1,9 @@
 import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 function calculateArea(shape) {
     if (shape instanceof Circle) {
-        return Math.pow(shape.radius, 2) * Math.PI;
+        const rv = Math.pow(shape.radius, 2) * Math.PI;
+        console.log('Circle area:', rv);
+        return rv;
     }
     if (shape instanceof Square) {
         return shape.side * shape.side;
@@ -19,7 +21,7 @@ function calculateArea(shape) {
 function calculatePerimeter(shape) {
     if (shape instanceof Circle) {
         const rv = shape.radius * 2 * Math.PI;
-        console.log('Circle area:', rv);
+        console.log('Circle perimeter:', rv);
         return rv;
     }
     if (shape instanceof Square) {
