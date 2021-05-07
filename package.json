@@ -7,10 +7,11 @@
   ],
   "scripts": {
     "test": "exit 0",
-    "update:version": "lerna version --no-push",
-    "commit": "git add . && cz -a",
-    "publishP": "lerna publish from-package",
-    "publish": "yarn run test && yarn run commit && lerna version && lerna publish from-package"
+    "posttest": "lerna run prepublish",
+    "update:version": "lerna version",
+    "preupdate:version": "git add . && cz -a",
+    "publishp": "lerna publish from-package",
+    "publish": "yarn run test && yarn run update:version && lerna publish from-package"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
