@@ -1,6 +1,6 @@
 import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 
-function calculateArea(shape: Circle| Square | Rect| Elipse): number{
+function calculateArea(shape: Circle | Square | Rect | Elipse): number {
   if (shape instanceof Circle) {
     return shape.radius ** 2 * Math.PI;
   }
@@ -22,9 +22,11 @@ function calculateArea(shape: Circle| Square | Rect| Elipse): number{
   return 0;
 }
 
-function calculatePerimeter(shape: Circle | Square | Rect| Elipse): number{
+function calculatePerimeter(shape: Circle | Square | Rect | Elipse): number {
   if (shape instanceof Circle) {
-    return shape.radius * 2 * Math.PI;
+    const rv = shape.radius * 2 * Math.PI;
+    console.log('Circle area:', rv);
+    return rv;
   }
 
   if (shape instanceof Square) {
@@ -36,13 +38,13 @@ function calculatePerimeter(shape: Circle | Square | Rect| Elipse): number{
   }
 
   if (shape instanceof Elipse) {
-    return 4 * ((shape.radiusY * shape.radiusX * Math.PI) + (shape.radiusX - shape.radiusY))/(shape.radiusX + shape.radiusY) ;
+    return (
+      (4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
+      (shape.radiusX + shape.radiusY)
+    );
   }
 
   return 0;
 }
 
-export{
-  calculateArea,
-  calculatePerimeter
-}
+export { calculateArea, calculatePerimeter };

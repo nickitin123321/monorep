@@ -18,7 +18,9 @@ function calculateArea(shape) {
 }
 function calculatePerimeter(shape) {
     if (shape instanceof Circle) {
-        return shape.radius * 2 * Math.PI;
+        const rv = shape.radius * 2 * Math.PI;
+        console.log('Circle area:', rv);
+        return rv;
     }
     if (shape instanceof Square) {
         return 4 * shape.side;
@@ -27,7 +29,8 @@ function calculatePerimeter(shape) {
         return 2 * shape.longSide + 2 * shape.shortSide;
     }
     if (shape instanceof Elipse) {
-        return 4 * ((shape.radiusY * shape.radiusX * Math.PI) + (shape.radiusX - shape.radiusY)) / (shape.radiusX + shape.radiusY);
+        return ((4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
+            (shape.radiusX + shape.radiusY));
     }
     return 0;
 }
