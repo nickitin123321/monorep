@@ -11,7 +11,7 @@ function calculateArea(shape) {
     }
     if (shape instanceof Elipse) {
         const rv = shape.radiusY * shape.radiusX * Math.PI;
-        console.log('Elipse areaa:', rv);
+        console.log('Elipse area:', rv);
         return rv;
     }
     return 0;
