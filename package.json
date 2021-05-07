@@ -2,9 +2,6 @@
   "name": "monorepo123321",
   "version": "2.5.5",
   "description": "my monorep",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "test command": "exit 0",
     "update:version": "lerna version --no-push",
