@@ -8,11 +8,12 @@
   "scripts": {
     "test command": "exit 0",
     "update:version": "lerna version --no-push",
-    "publish": "lerna run tsc && git add . && git commit -a &&  lerna publish"
+    "publish": "lerna run tsc && git add . && cz -a &&  lerna publish"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "lerna": "^4.0.0",
     "tsc-watch": "^4.2.9"
   },
@@ -30,5 +31,10 @@
   "dependencies": {
     "yarn": "^1.22.10"
   },
-  "private": true
+  "private": true,
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
