@@ -8,7 +8,7 @@
   "scripts": {
     "test command": "exit 0",
     "update:version": "lerna version --no-push",
-    "prepublish": "cz && lerna run tsc && lerna publish"
+    "publish": "lerna run tsc && git add . && cz -a &&  lerna publish"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",

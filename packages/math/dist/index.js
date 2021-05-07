@@ -10,7 +10,9 @@ function calculateArea(shape) {
         return shape.longSide * shape.shortSide;
     }
     if (shape instanceof Elipse) {
-        return shape.radiusY * shape.radiusX * Math.PI;
+        const rv = shape.radiusY * shape.radiusX * Math.PI;
+        console.log('Elipse areaa:', rv);
+        return rv;
     }
     return 0;
 }
