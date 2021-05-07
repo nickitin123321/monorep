@@ -3,7 +3,6 @@ function calculateArea(shape) {
     if (shape instanceof Circle) {
         const rv = Math.pow(shape.radius, 2) * Math.PI;
         console.log('Circle area:', rv);
-        console.log('123321');
         return rv;
     }
     if (shape instanceof Square) {
