@@ -4,6 +4,7 @@ function calculateArea(shape: Circle | Square | Rect | Elipse): number {
   if (shape instanceof Circle) {
     const rv = shape.radius ** 2 * Math.PI;
     console.log('Circle area:', rv);
+    console.log('123321');
     return rv;
   }
 
