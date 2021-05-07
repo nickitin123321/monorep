@@ -3,9 +3,10 @@
   "version": "2.5.5",
   "description": "my monorep",
   "scripts": {
-    "test command": "exit 0",
+    "test": "exit 0",
     "update:version": "lerna version --no-push",
-    "publish": "lerna run prepublish && git add . && cz -a &&  lerna version && lerna publish from-package"
+    "git": "git add . && cz -a",
+    "publish": "yarn run test && lerna run prepublish && yarn run git &&  lerna version && lerna publish from-package"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
