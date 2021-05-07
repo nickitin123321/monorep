@@ -2,6 +2,7 @@
   "name": "monorepo123321",
   "version": "2.5.5",
   "description": "my monorep",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -11,7 +12,7 @@
     "postcommit": "lerna version",
     "commit": "git add . && cz -a",
     "publishp": "lerna publish from-package",
-    "publish": "yarn run test && yarn run commit && lerna publish from-package"
+    "publish": "yarn test && yarn commit && lerna publish from-package"
   },
   "author": "Nikitin Nikita",
   "license": "ISC",
@@ -34,7 +35,6 @@
   "dependencies": {
     "yarn": "^1.22.10"
   },
-  "private": true,
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
