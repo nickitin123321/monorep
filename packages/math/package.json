@@ -18,5 +18,5 @@
     "prepublish": "tsc",
     "init": "npm init"
   },
-  "gitHead": "941356691ee4db61c11c5847ca4a15a92194e429"
+  "gitHead": "b59bdd10c068b670a8c683ddfa85afe04c14359b"
 }
