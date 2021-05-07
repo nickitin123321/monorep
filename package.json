@@ -2,11 +2,15 @@
   "name": "monorepo123321",
   "version": "2.5.5",
   "description": "my monorep",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "exit 0",
     "update:version": "lerna version --no-push",
     "commit": "git add . && cz -a",
-    "publish": "yarn run test && lerna run prepublish && yarn run commit && lerna version && lerna publish from-package"
+    "publishP": "lerna publish from-package",
+    "publish": "yarn run test && lerna run prepublish && yarn run commit && lerna version && yrn run publishP"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
