@@ -2,14 +2,15 @@ import { Circle, Square, Rect, Elipse } from '@monorepo123321/shapes';
 
 function calculateArea(shape: Circle | Square | Rect | Elipse): number {
   if (shape instanceof Circle) {
-    console.log('test');
     const rv = shape.radius ** 2 * Math.PI;
     console.log('Circle area:', rv);
     return rv;
   }
 
   if (shape instanceof Square) {
-    return shape.side * shape.side;
+    const rv = shape.side * shape.side;
+    console.log('Square area:', rv);
+    return rv;
   }
 
   if (shape instanceof Rect) {
