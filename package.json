@@ -10,8 +10,8 @@
     "posttest": "lerna run prepublish",
     "postcommit": "lerna version",
     "commit": "git add . && cz -a",
-    "postversion": "lerna publish from-package",
-    "publish": "yarn run test && yarn run commit"
+    "publishp": "lerna publish from-package",
+    "publish": "yarn run test && yarn run commit && lerna publish from-package"
   },
   "author": "Nikitin Nikita",
   "license": "ISC",
