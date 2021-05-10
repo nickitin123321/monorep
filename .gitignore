@@ -1,1 +1,4 @@
-/node_modules/
+node_modules/
+packages/drawer/dist
+packages/math/dist
+packages/shapes/dist
