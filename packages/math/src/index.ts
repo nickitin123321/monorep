@@ -43,7 +43,7 @@ function calculatePerimeter(shape: Circle | Square | Rect | Elipse): number {
 
   if (shape instanceof Rect) {
     const rv = 2 * shape.longSide + 2 * shape.shortSide;
-    console.log('Rect perimeter:', 2 * shape.longSide + 2 * shape.shortSide);
+    //console.log('Rect perimeter:', 2 * shape.longSide + 2 * shape.shortSide);
     return rv;
   }
 
