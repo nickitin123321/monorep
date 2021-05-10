@@ -7,11 +7,10 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo 'run test' && exit 0",
-    "testb": "node test.js",
+    "test": "node test.js && exit 0",
     "posttest": "lerna run build",
-    "postcommit": "lerna version",
     "commit": "git add . && cz -a",
+    "postcommit": "lerna version",
     "publish": "yarn test && yarn commit && lerna publish from-package"
   },
   "author": "Nikitin Nikita",
