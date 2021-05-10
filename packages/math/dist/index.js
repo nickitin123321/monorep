@@ -34,7 +34,10 @@ function calculatePerimeter(shape) {
         return rv;
     }
     if (shape instanceof Rect) {
-        return 2 * shape.longSide + 2 * shape.shortSide;
+        const rv = 2 * shape.longSide + 2 * shape.shortSide;
+        ;
+        console.log('Rect perimeter:', 2 * shape.longSide + 2 * shape.shortSide);
+        return rv;
     }
     if (shape instanceof Elipse) {
         return ((4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /

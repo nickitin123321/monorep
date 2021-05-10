@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "test": "exit 0",
+    "posttest": "lerna run build",
     "postcommit": "lerna version",
     "commit": "git add . && cz -a",
     "publish": "yarn test && yarn commit && lerna publish from-package"
