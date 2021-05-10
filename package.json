@@ -28,9 +28,6 @@
     "url": "https://github.com/nickitin123321/monorep/issues"
   },
   "homepage": "https://github.com/nickitin123321/monorep#readme",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "yarn": "^1.22.10"
   },
