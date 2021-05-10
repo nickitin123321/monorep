@@ -9,7 +9,7 @@ function calculateArea(shape: Circle | Square | Rect | Elipse): number {
 
   if (shape instanceof Square) {
     const rv = shape.side * shape.side;
-    console.log('Square area:', rv);
+    //console.log('Square area:', rv);
     return rv;
   }
 
