@@ -12,7 +12,7 @@ function calculateArea(shape) {
     }
     if (shape instanceof Rect) {
         const rv = shape.longSide * shape.shortSide;
-        //console.log('Rect area:', rv);
+        console.log('Rect area:', rv);
         return rv;
     }
     if (shape instanceof Elipse) {
@@ -35,13 +35,12 @@ function calculatePerimeter(shape) {
     }
     if (shape instanceof Rect) {
         const rv = 2 * shape.longSide + 2 * shape.shortSide;
-        ;
         console.log('Rect perimeter:', 2 * shape.longSide + 2 * shape.shortSide);
         return rv;
     }
     if (shape instanceof Elipse) {
-        const rv = ((4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
-            (shape.radiusX + shape.radiusY));
+        const rv = (4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
+            (shape.radiusX + shape.radiusY);
         console.log('Elipse perimeter:', rv);
         return rv;
     }
