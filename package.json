@@ -11,7 +11,6 @@
     "posttest": "lerna run build",
     "postcommit": "lerna version",
     "commit": "git add . && cz -a",
-    "publishp": "lerna publish from-package",
     "publish": "yarn test && yarn commit && lerna publish from-package"
   },
   "author": "Nikitin Nikita",
