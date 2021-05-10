@@ -14,5 +14,8 @@
     "tscw": "tsc -w",
     "build": "tsc",
     "init": "npm init"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
   }
 }
