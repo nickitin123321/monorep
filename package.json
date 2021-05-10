@@ -8,10 +8,8 @@
   ],
   "scripts": {
     "test": "node test.js && exit 0",
-    "posttest": "lerna run build",
     "commit": "git add . && cz -a",
-    "postcommit": "lerna publish",
-    "publishe": "yarn test && yarn commit"
+    "publishe": "yarn test && lerna run build && yarn commit && lerna publish"
   },
   "author": "Nikitin Nikita",
   "license": "ISC",
