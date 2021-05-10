@@ -40,8 +40,10 @@ function calculatePerimeter(shape) {
         return rv;
     }
     if (shape instanceof Elipse) {
-        return ((4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
+        const rv = ((4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
             (shape.radiusX + shape.radiusY));
+        console.log('Elipse perimeter:', rv);
+        return rv;
     }
     return 0;
 }

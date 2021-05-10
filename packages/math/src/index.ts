@@ -48,10 +48,12 @@ function calculatePerimeter(shape: Circle | Square | Rect | Elipse): number {
   }
 
   if (shape instanceof Elipse) {
-    return (
+    const rv = (
       (4 * (shape.radiusY * shape.radiusX * Math.PI + (shape.radiusX - shape.radiusY))) /
       (shape.radiusX + shape.radiusY)
     );
+    console.log('Elipse perimeter:', rv);
+    return rv;
   }
 
   return 0;
