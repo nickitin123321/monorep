@@ -7,7 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "exit 0",
+    "test": "echo 'run test' && exit 0",
+    "testb": "node test.js",
     "posttest": "lerna run build",
     "postcommit": "lerna version",
     "commit": "git add . && cz -a",
