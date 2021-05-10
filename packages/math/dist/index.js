@@ -30,7 +30,7 @@ function calculatePerimeter(shape) {
     }
     if (shape instanceof Square) {
         const rv = 4 * shape.side;
-        console.log('Circle perimeter:', 4 * shape.side);
+        console.log('Square perimeter:', 4 * shape.side);
         return rv;
     }
     if (shape instanceof Rect) {
