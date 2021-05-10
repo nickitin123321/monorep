@@ -15,7 +15,7 @@
   },
   "scripts": {
     "tscw": "tsc -w",
-    "prepublish": "tsc",
+    "build": "tsc",
     "init": "npm init"
   }
 }
