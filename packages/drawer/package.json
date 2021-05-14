@@ -1,6 +1,6 @@
 {
   "name": "@nickitin123321/drawer",
-  "version": "2.3.82",
+  "version": "2.3.83",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
   "homepage": "",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "license": "ISC",
   "dependencies": {
-    "@nickitin123321/shapes": "^2.3.82",
+    "@nickitin123321/shapes": "^2.3.83",
     "typescript": "^4.2.4"
   },
   "scripts": {
