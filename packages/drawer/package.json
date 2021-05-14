@@ -11,13 +11,10 @@
     "@nickitin123321/shapes": "^2.3.73",
     "typescript": "^4.2.4"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "tscw": "tsc -w",
     "build": "tsc",
     "init": "npm init"
   },
-  "repository":"https://github.com/nickitin123321/monorep"
+  "repository": "https://github.com/nickitin123321/monorep"
 }
