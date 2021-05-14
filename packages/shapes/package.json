@@ -17,5 +17,6 @@
   },
   "dependencies": {
     "typescript": "^4.2.4"
-  }
+  },
+  "repository":"https://github.com/nickitin123321/monorep"
 }

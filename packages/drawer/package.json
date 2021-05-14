@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo123321/drawer",
+  "name": "@nickitin123321/drawer",
   "version": "2.3.73",
   "description": "> TODO: description",
   "author": "Nikitin <nikita.nikitin@anychart.com>",
@@ -8,7 +8,7 @@
   "types": "dist/index.d.ts",
   "license": "ISC",
   "dependencies": {
-    "@monorepo123321/shapes": "^2.3.73",
+    "@nickitin123321/shapes": "^2.3.73",
     "typescript": "^4.2.4"
   },
   "publishConfig": {
@@ -18,5 +18,6 @@
     "tscw": "tsc -w",
     "build": "tsc",
     "init": "npm init"
-  }
+  },
+  "repository":"https://github.com/nickitin123321/monorep"
 }
