@@ -12,7 +12,7 @@ function calculateArea(shape) {
     }
     if (shape instanceof Rect) {
         const rv = shape.longSide * shape.shortSide;
-        console.log('Rect area:', rv);
+        //console.log('Rect area:', rv);
         return rv;
     }
     if (shape instanceof Elipse) {
